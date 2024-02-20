@@ -1,0 +1,36 @@
+### base_template template
+# Игнорировать файлы, создаваемые окружением виртуальных сред
+venv/
+env/
+env.bak/
+*.pyc
+
+# Игнорировать файлы, создаваемые IDE
+.vscode/
+.idea/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.bak
+
+# Игнорировать файлы сборки и временные файлы
+build/
+dist/
+*.egg-info/
+*.egg
+*.log
+*.out
+*.pid
+*.sock
+*.exe
+
+# Игнорировать файлы данных
+*.csv
+*.xlsx
+*.db
+
+# Игнорировать файлы конфигурации
+*.config
+*.ini
+*.conf
